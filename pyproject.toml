@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "xplr-yml2lua"
+version = "0.1.0"
+description = ""
+authors = ["Arijit Basu <sayanarijit@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+PyYAML = "^5.4.1"
+luadata = "^1.0.5"
+flatten-dict = "^0.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+xplr-yml2lua = "xplr_yml2lua.main:main"
