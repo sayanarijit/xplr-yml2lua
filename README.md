@@ -3,6 +3,8 @@ xplr-yml2lua
 
 This tool tries to convert yaml files to lua.
 
+**Important:** This tool will not generate 100% correct lua code. You will need to mix and match the flat nd nested outputs and fix syntax issues manually.
+
 Install
 -------
 
